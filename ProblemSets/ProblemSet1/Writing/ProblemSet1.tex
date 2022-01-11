@@ -1,0 +1,321 @@
+\documentclass[12pt]{article}
+%\usepackage{indentfirst}
+\usepackage{mathptmx}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage[letterpaper, margin=1in]{geometry}
+
+\usepackage[authordate,backend=bibtex]{biblatex-chicago}
+\addbibresource{../Articles/reference.bib}
+
+\begin{document}
+
+\title{ECON 672 Winter 2022 Problem Set \#1}
+\author{Jon Holder}
+%\shortTitle{Problem Set\#2}
+%\econClass{ECON 672 Winter 2022}
+
+\newcommand{\question}[1]{\textbf{\noindent Question #1}}
+\newcommand{\tabindent}{\hspace{3mm}}
+
+\newcommand{\todo}{\textbf{TODO}}
+
+\maketitle
+% Question 1
+\question{1}
+    \begin{enumerate}[\indent a.]
+        \item \textcite{Persico2004} are examining the mechanism that 
+        influences the relationship between height and earnings gap. They note 
+        that previous studies have evaluated the influence of current height.  
+        They take advantage of the fact that height changes throughout youth 
+        before becoming relatively constant in adulthood. 
+        \citeauthor{Persico2004} find that height at 16 is a predictor of 
+        future earnings controlling for vocation, family attributes and adult 
+        height.
+        
+        \item Two data sets are evaluated: 1) Britain's National Child 
+        Development Survey (NCDS) and the US's National Longitudinal Survey of 
+        Youth (NLSY) 1979 cohort.
+
+        \item Table 1 shows the raw heights, change in heights and their 
+        distributions for white men in the two data sets. 
+        \citeauthor{Persico2004} include this data because it is the key 
+        parameter of interest.  The characteristics and distributions of these 
+        heights provide important context for the conclusion of the authors.
+
+        \item Table 2 shows various statistics for sample.  It includes 
+        traditional determinants of wages include individual and family 
+        educational attainment, martial status, and number of siblings. Finally, 
+        Table 2 contains the ln(wages) which is the dependent variable.
+
+        \item Table 3: \todo
+        
+        \item Table 4: \todo
+        
+        \item Summary: \todo
+    \end{enumerate}
+
+% Question 2
+\question{2}
+    \begin{enumerate}[\indent a.]
+        \item[b.]
+            \begin{enumerate}[(i)]
+                \item NLSY contained 3 subsamples: a cross-sectional sample that 
+                represented noninstitutionalized civilian population, a 
+                sample that oversampled civilian Latino, black and other 
+                economically disadvantage civilians, and a sample representing 
+                the population that was in the military.  After the 1984, most 
+                members of the military where ineligible for interview so 201 
+                members of that cohort were randomly selected to remain. After 
+                the 1990 interview, the economically disadvantaged white 
+                population was removed from the sample as noted in the analysis 
+                by \textcite{Persico2004}.
+
+                \item The survey collected information about the respondents 
+                family background and family formation. They collected 
+                information about the respondents education background including 
+                high school, college, and/or vocational training as well as a 
+                standardized test of general ability, ASVAB. Finally, the survey 
+                collected information about labor participation, government 
+                program participation, and income and assets.
+            \end{enumerate}
+        \item[f.] Height data is available in 1981, 1982,1985, 2006, 2008, 2010 
+        2012, 2014. 2016, 2018.
+    \end{enumerate}
+
+\question{4}
+    \begin{enumerate}[\indent a.]
+        \item There are 12,686 observations in the dta file.
+
+        \item There in are 6,403 (50.47\%) males and 6,283 (49.53\%) females in 
+        the 1979 sample.
+    \end{enumerate}
+
+\question{5}
+\begin{itemize}
+    \item[] Restrict sample to non-poor white men.
+\end{itemize}
+
+\question{6}
+\begin{enumerate}[\indent a.]
+    \item Generate \textbf{height81}
+    \begin{enumerate}[(i)]
+        \item HEALTH\_HEIGHT\_1981 is encoded as height in feet and inches 
+        displayed as a 3 digit integer value.
+
+        \item -5 response means that the person was not interviewed.
+        
+        \item Responses below 0 are error codes.  Additionally height 
+        cannot be negative.
+        
+        \item A response of "510" means that respondent is 5 feet and 10 
+        inches tall.
+        
+        \item \textit{Generate Stata variable}
+        
+        \item The mean height for white men in 1981 is 70.34 inches or about 
+        5ft 10.3in.
+    \end{enumerate}
+    
+    \item Generate \textbf{height85}
+    \begin{enumerate}[(i)]
+        \item \textit{Generate Stata variable}
+        
+        \item The mean height of a white man in the 1985 sample is 70.64 inches 
+        or 5ft 10.65inches.
+
+        \item Error coded observations were dropped.  Values less than 0 are 
+        error coded.
+
+        \item The mean change in height between 1985 and 1981 is .2889 inches.
+    \end{enumerate}
+    
+    \item Generate \textbf{age96}
+    \begin{enumerate}[(i)]
+        \item FAM\_1B\_1979 is the respondent's age in 1979.
+        
+        \item \textit{Generate Stata variable}
+    \end{enumerate} 
+
+    \item Generate \textbf{income}
+    \begin{enumerate}[(i)]
+        \item Income in truncated for the top 2\%. Negative values are error 
+        codes but 0 is valid value.
+
+        \item \textit{Generate Stata Variable}
+        
+        \item There are 2,094 valid observations for income.
+        
+        \item  The mean of the valid income is \$34,912.86.
+    \end{enumerate}
+
+    \item Generate \textbf{hours}
+    \begin{enumerate}[(i)]
+        \item Negative values are error codes but 0 is valid value.
+        
+        \item \textit{Generate Stata Variable}
+        
+        \item There are 2,139 valid observations for hours in the dataset.
+        
+        \item The mean hours worked is 2,222.4.
+        
+        \item Generate \textit{fulltime} variable 
+
+        \item 90.04\% of the remaining respondents worked fulltime.
+    \end{enumerate} 
+
+    \item Generate \textbf{lnWage}
+    \begin{enumerate}[(i)]
+        \item \textit{Generate Stata Variable}
+        
+        \item There are 1,973 observations that have non-missing lnWage values.
+        
+        \item The remaining sample size with non-missing values is 1,979.
+    \end{enumerate}
+
+    \item Generate \textbf{educ}.  This is the highest level of education 
+    reported from the 1979,1981, 1985, and 1996 surveys.
+    \begin{enumerate}
+        \item Missing values are negative.
+        
+        \item \textit{Generate Stata Variable}
+
+        \item The mean number years completed is 12.2 yrs.  This corresponds to 
+        a little more than a high school
+    \end{enumerate}
+
+    \item Generate \textbf{everMarried}
+    \begin{enumerate}
+        \item Values less than 0 are error codes. Values 1 or higher indicate 
+        the respondent is currently or was previously married and is now either 
+        separated, divorced or widowed.
+
+        \item \textit{Generate Stata Variable}
+        
+        \item About 78.48\% of the sample have been married.
+    \end{enumerate}    
+    
+    \item Generate \textbf{momSchool}
+    \begin{enumerate}[(i)]
+        \item Error codes are negative.  A value of 95 means the respondent has 
+        an ungraded highest level of education.  However, no respondents have 
+        this value.
+
+        \item \textit{Generate Stata Variable}
+        
+        \item The mean level of the mother's education for the sample is 11.9 
+        years.  
+    \end{enumerate}
+
+    \item Generate \textbf{momSkilled}
+    \begin{enumerate}[(i)]
+        \item This contains classification codes.  Codes 1-245 are considered 
+        professional/managerial. Negative values are error codes.
+
+        \item \textit{Generate Stata Variable}
+        
+        \item The share of mothers in skilled occupations in 1979 is 19.7\%.
+    \end{enumerate}
+
+    \item Generate \textbf{dadSchool}. Generate \textbf{dadSkilled}
+    \begin{enumerate}[(i)]
+        \item The mean level of school for dads is 12.2 years.
+        
+        \item The share of dads in skilled occupations in 1979 is 32.2\%
+    \end{enumerate}
+
+    \item Generate \textbf{siblings}
+    
+    \item Generate \textbf{finalSample}
+    \begin{enumerate}[(i)]
+        \item \textit{Generate Stata Variable}
+        
+        \item The final sample size is 910 responses.
+    \end{enumerate}
+
+\end{enumerate}
+
+\question{7}
+\begin{table}[h!]
+    \begin{tabular}{*{7}{|c}|} 
+        \hline 
+         & Mean & Median & Standard Deviation & $25^{th}$ Percentile &
+        $75^{th}$ Percentile & Observations \\
+        \hline
+        \multicolumn{7}{|c|}{A. United States NLSY Entire Sample} \\
+        \hline
+        Height 1981 & 70.34 & 71 & 2.82 & 69 & 72 & 2900 \\
+        \hline
+        Height 1985 & 70.64 & 71 & 2.78 & 69 & 72 & 2343 \\
+        \hline
+        $\Delta$1981-1985 & 0.29 & 0 & 1.44 & 0 & 1 & 2281 \\
+        \hline
+        \multicolumn{7}{|c|}{B. Final Estimation Sample} \\
+        \hline
+        Height 1981 & 70.36 & 71 & 2.90 & 69 & 72 & 910 \\
+        \hline
+        Height 1985 & 70.74 & 71 & 2.75 & 69 & 73 & 910 \\
+        \hline
+        $\Delta$1981-1985 & 0.37 & 0 & 1.48 & 0 & 1 & 910 \\
+        \hline
+    \end{tabular}
+    \caption{\textit{Replication of \textcite{Persico2004} Table 1}}
+\end{table}
+
+\clearpage
+\question{8} \todo
+\begin{table}[h!]
+    \begin{tabular}{|l | c | c | c |} 
+        \hline 
+         & Adult Height  & 
+           Adult Height  & 
+            \\
+         & Median or Below  & 
+           Above Median & 
+            Difference \\
+         & (1) & 
+           (2) & 
+           (3) \\
+        \hline
+        Adult Characteristics & & &\\
+        \hline
+        \tabindent 1981 Height & 68.61  & 72.56  & 3.95* \\
+                            & (2.31) & (1.92) & (0.14)\\
+        \hline
+        \tabindent 1985 Height & 68.83  & 73.12  & 4.285* \\
+                           & (2.03) & (1.28) &  (0.11) \\
+        \hline
+        \tabindent Age     & 34.45  & 34.48  & 0.02 \\
+                           & (2.26) & (2.32) &  (0.15)       \\
+        \hline
+        \tabindent ln(wage/hour)     & 2.63   & 2.72  & 0.09* \\
+                                     & (0.65) & (0.64) &  (0.04)       \\
+        \hline
+        \tabindent Ever Married(\%)  & 85.57  & 89.11 & 0.03 \\
+                                     & (35.17) & (31.19) & (0.02) \\
+        \hline
+        Family Background & & & \\
+        \hline
+        \tabindent Mother's years of schooling & 12.26 & 12.44 & 0.19\\
+                                               & (2.43) & (2.13) & (0.15) \\
+        \hline
+        \tabindent Mother skilled$\backslash$professional (\%) & 18.77 & 21.29 & 0.02 \\
+                                                 & (39.09) & (40.98) & (0.03) \\
+        \hline
+        \tabindent Father's years of schooling & 12.51 & 12.87 & 0.36 \\
+                                               & (3.20) & (3.09) & (0.21) \\
+        \hline
+        \tabindent Father skilled$\backslash$professional (\%) & 32.41 & 35.15 & 0.03 \\
+                                                               & (46.85) & (47.80) & (0.03) \\
+        \hline
+        Observations & 506 & 404 & 910 \\
+        \hline       
+    \end{tabular}
+    \caption{\textit{Replication of \textcite{Persico2004} Table 2. $* p<0.05$}}
+\end{table}
+
+\clearpage
+
+\printbibliography 
+
+\end{document}

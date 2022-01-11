@@ -1,0 +1,529 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.1.1)  10 JAN 2022 21:52
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Problem Sets/Problem Set 1/Writing/ProblemSet1.tex"
+(/Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Problem Sets/Problem Set 1/Writing/ProblemSet1.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2021-11-22> (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks16
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip49
+\multirow@cntb=\count191
+\multirow@dima=\skip50
+\bigstrutjot=\dimen139
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks18
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago.sty
+Package: biblatex-chicago 2021/06/30 v 3.16 biblatex style
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)) (/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)))
+\c@section@level=\count196
+LaTeX Info: Redefining \ref on input line 356.
+LaTeX Info: Redefining \pageref on input line 356.
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count197
+\decimalpart=\count198
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count199
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count266
+\c@listtotal=\count267
+\c@listcount=\count268
+\c@liststart=\count269
+\c@liststop=\count270
+\c@citecount=\count271
+\c@citetotal=\count272
+\c@multicitecount=\count273
+\c@multicitetotal=\count274
+\c@instcount=\count275
+\c@maxnames=\count276
+\c@minnames=\count277
+\c@maxitems=\count278
+\c@minitems=\count279
+\c@citecounter=\count280
+\c@maxcitecounter=\count281
+\c@savedcitecounter=\count282
+\c@uniquelist=\count283
+\c@uniquename=\count284
+\c@refsection=\count285
+\c@refsegment=\count286
+\c@maxextratitle=\count287
+\c@maxextratitleyear=\count288
+\c@maxextraname=\count289
+\c@maxextradate=\count290
+\c@maxextraalpha=\count291
+\c@abbrvpenalty=\count292
+\c@highnamepenalty=\count293
+\c@lownamepenalty=\count294
+\c@maxparens=\count295
+\c@parenlevel=\count296
+\blx@tempcnta=\count297
+\blx@tempcntb=\count298
+\blx@tempcntc=\count299
+\blx@maxsection=\count300
+\blx@maxsegment@0=\count301
+\blx@notetype=\count302
+\blx@parenlevel@text=\count303
+\blx@parenlevel@foot=\count304
+\blx@sectionciteorder@0=\count305
+\blx@entrysetcounter=\count306
+\blx@biblioinstance=\count307
+\labelnumberwidth=\skip51
+\labelalphawidth=\skip52
+\biblabelsep=\skip53
+\bibitemsep=\skip54
+\bibnamesep=\skip55
+\bibinitsep=\skip56
+\bibparsep=\skip57
+\bibhang=\skip58
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language87
+\c@mincomprange=\count308
+\c@maxcomprange=\count309
+\c@mincompwidth=\count310
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'chicago-authordate.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count311
+\c@savedafterword=\count312
+\c@annotator=\count313
+\c@savedannotator=\count314
+\c@author=\count315
+\c@savedauthor=\count316
+\c@bookauthor=\count317
+\c@savedbookauthor=\count318
+\c@commentator=\count319
+\c@savedcommentator=\count320
+\c@editor=\count321
+\c@savededitor=\count322
+\c@editora=\count323
+\c@savededitora=\count324
+\c@editorb=\count325
+\c@savededitorb=\count326
+\c@editorc=\count327
+\c@savededitorc=\count328
+\c@foreword=\count329
+\c@savedforeword=\count330
+\c@holder=\count331
+\c@savedholder=\count332
+\c@introduction=\count333
+\c@savedintroduction=\count334
+\c@namea=\count335
+\c@savednamea=\count336
+\c@nameb=\count337
+\c@savednameb=\count338
+\c@namec=\count339
+\c@savednamec=\count340
+\c@translator=\count341
+\c@savedtranslator=\count342
+\c@shortauthor=\count343
+\c@savedshortauthor=\count344
+\c@shorteditor=\count345
+\c@savedshorteditor=\count346
+\c@labelname=\count347
+\c@savedlabelname=\count348
+\c@institution=\count349
+\c@savedinstitution=\count350
+\c@lista=\count351
+\c@savedlista=\count352
+\c@listb=\count353
+\c@savedlistb=\count354
+\c@listc=\count355
+\c@savedlistc=\count356
+\c@listd=\count357
+\c@savedlistd=\count358
+\c@liste=\count359
+\c@savedliste=\count360
+\c@listf=\count361
+\c@savedlistf=\count362
+\c@location=\count363
+\c@savedlocation=\count364
+\c@organization=\count365
+\c@savedorganization=\count366
+\c@origlocation=\count367
+\c@savedoriglocation=\count368
+\c@origpublisher=\count369
+\c@savedorigpublisher=\count370
+\c@publisher=\count371
+\c@savedpublisher=\count372
+\c@language=\count373
+\c@savedlanguage=\count374
+\c@origlanguage=\count375
+\c@savedoriglanguage=\count376
+\c@pageref=\count377
+\c@savedpageref=\count378
+\shorthandwidth=\skip59
+\shortjournalwidth=\skip60
+\shortserieswidth=\skip61
+\shorttitlewidth=\skip62
+\shortauthorwidth=\skip63
+\shorteditorwidth=\skip64
+\locallabelnumberwidth=\skip65
+\locallabelalphawidth=\skip66
+\localshorthandwidth=\skip67
+\localshortjournalwidth=\skip68
+\localshortserieswidth=\skip69
+\localshorttitlewidth=\skip70
+\localshortauthorwidth=\skip71
+\localshorteditorwidth=\skip72
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count379
+\c@textcitetotal=\count380
+\c@textcitemaxnames=\count381
+\c@biburlbigbreakpenalty=\count382
+\c@biburlbreakpenalty=\count383
+\c@biburlnumpenalty=\count384
+\c@biburlucpenalty=\count385
+\c@biburllcpenalty=\count386
+\biburlbigskip=\muskip17
+\biburlnumskip=\muskip18
+\biburlucskip=\muskip19
+\biburllcskip=\muskip20
+\c@smartand=\count387
+)
+Package biblatex Info: Trying to load bibliography style 'chicago-authordate'...
+Package biblatex Info: ... file 'chicago-authordate.bbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.bbx
+File: chicago-authordate.bbx 2021/06/30 v 3.16 biblatex bibliography style
+\lositemsep=\skip73
+\cms@tempcnta=\count388
+\cms@tempcntb=\count389
+\c@bbx:relatedcount=\count390
+\c@bbx:relatedtotal=\count391
+)
+Package biblatex Info: Trying to load citation style 'chicago-authordate'...
+Package biblatex Info: ... file 'chicago-authordate.cbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.cbx
+File: chicago-authordate.cbx 2021/03/27 v 3.16 biblatex citation style
+Package biblatex Info: Trying to load citation style 'chicago-dates-common'...
+Package biblatex Info: ... file 'chicago-dates-common.cbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-chicago/chicago-dates-common.cbx
+File: chicago-dates-common.cbx 2021/03/27 v 3.16 biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footfullcite'.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Delimiter 'dateeradelim' in context '' already defined, overwriting.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+\@quotelevel=\count392
+\@quotereset=\count393
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 11.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count394
+\l__pdf_internal_box=\box50
+) (./ProblemSet1.aux)
+\openout1 = `ProblemSet1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+\big@size=\dimen148
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package biblatex Info: Trying to load language 'english' -> 'cms-american'...
+Package biblatex Info: ... file 'cms-american.lbx' found.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-chicago/cms-american.lbx
+File: cms-american.lbx 2021/06/30 v 3.16 biblatex localization
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/american.lbx
+File: american.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+Package biblatex Info: Document encoding is UTF8 ....
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-11-22 L3 programming layer (loader) 
+)
+Package biblatex Info: ... and expl3
+(biblatex)             2021-11-22 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2021-11-12 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout3 = `ProblemSet1-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'ProblemSet1.bbl' found.
+ (./ProblemSet1.bbl)
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 23.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 23.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 23.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 23.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 23.
+ [1
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 149.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [2]
+Overfull \hbox (5.97878pt too wide) in paragraph at lines 212--214
+[]\OT1/ptm/m/n/12 This con-tains clas-si-fi-ca-tion codes. Codes 1-245 are con-sid-ered pro-fes-sional/managerial.
+ []
+
+[3]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 240.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 240.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 240.
+
+Overfull \hbox (35.35448pt too wide) in paragraph at lines 240--262
+[][] 
+ []
+
+[4] [5
+
+] [6
+
+] (./ProblemSet1.aux)
+Package logreq Info: Writing requests to 'ProblemSet1.run.xml'.
+\openout1 = `ProblemSet1.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 11651 strings out of 478353
+ 232176 string characters out of 5848087
+ 879180 words of memory out of 5000000
+ 29672 multiletter control sequences out of 15000+600000
+ 434801 words of font info for 87 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 82i,11n,90p,2053b,3821s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ProblemSet1.pdf (6 pages, 75350 bytes).
+PDF statistics:
+ 54 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

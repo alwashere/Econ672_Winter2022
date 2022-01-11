@@ -1,0 +1,1665 @@
+A00026.00    [VERSION_R26]                                  Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             VERSION_R26_1
+ 
+COMMENT: PUBLIC RELEASE IDENTIFICATION NUMBER
+ 
+    7071           1 TO 999
+  -------
+    7071
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7071   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5615
+ 
+Min:            458        Max:            458        Mean:                 458
+ 
+Lead In: None.
+Default Next Question: T50192.00
+--------------------------------------------------------------------------------
+R00001.00    [CASEID]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             IDENTIFICATION CODE
+ 
+ORIGINAL QUESTION NAME: CASEID
+ 
+NOTE: THIS NUMBER WAS ASSIGNED ACCORDING TO THE RECORD NUMBER OF EACH RESPONDENT
+ON THE TAPE. THE FIRST RESPONDENT WAS ASSIGNED ID#1, THE SECOND WAS ASSIGNED 
+ID#2, ETC.
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: All
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:          12686        Mean:              6343.5
+ 
+Lead In: None.
+Default Next Question: R00001.49
+--------------------------------------------------------------------------------
+R00006.00    [FAM-1B]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R
+ 
+ORIGINAL QUESTION NAME: S01Q01B
+ 
+AND THAT MAKES YOU (R'S AGE ON HOUSEHOLD ENUMERATION). IS THAT CORRECT ? (IF 
+NECESSARY CORRECT HOUSEHOLD ENUMERATION.)
+ 
+ACTUAL AGE
+ 
+UNIVERSE: All
+ 
+     950          14
+    1563          15
+    1561          16
+    1508          17
+    1634          18
+    1677          19
+    1666          20
+    1690          21
+     437          22
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:             14        Max:             22        Mean:                17.9
+ 
+Lead In: R00005.00[Default]
+Default Next Question: R00007.00
+--------------------------------------------------------------------------------
+R00065.00    [HGC-MOTHER]                                   Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY R'S MOTHER
+ 
+ORIGINAL QUESTION NAME: S01Q16
+ 
+WHAT IS THE HIGHEST GRADE OR YEAR OF REGULAR SCHOOL THAT YOUR MOTHER EVER 
+COMPLETED?
+ 
+UNIVERSE: R with mother/mother figure
+ 
+     132       0 NONE
+      24       1 1ST GRADE
+      87       2 2ND GRADE
+     183       3 3RD GRADE
+     173       4 4TH GRADE
+     198       5 5TH GRADE
+     421       6 6TH GRADE
+     260       7 7TH GRADE
+     801       8 8TH GRADE
+     698       9 9TH GRADE
+     999      10 10TH GRADE
+    1107      11 11TH GRADE
+    4817      12 12TH GRADE
+     364      13 1ST YR COL
+     561      14 2ND YR COL
+     178      15 3RD YR COL
+     647      16 4TH YR COL
+     101      17 5TH YR COL
+      92      18 6TH YR COL
+      14      19 7TH YR COL
+      21      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   11878
+ 
+Refusal(-1)            3
+Don't Know(-2)       527
+Invalid Skip(-3)     251
+TOTAL =========>   12659   VALID SKIP(-4)      27     NON-INTERVIEW(-5)       0
+ 
+Lead In: R00061.00[Default]
+Default Next Question: R00066.00
+--------------------------------------------------------------------------------
+R00069.00    [FAMOCC-19]                                    Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             OCCUPATION OF LONGEST JOB IN 1978, R'S MOTHER/STEPMOTHER (CENSUS 3 
+             DIGIT)
+ 
+ORIGINAL QUESTION NAME: S01Q19A
+ 
+WHAT KIND OF WORK WAS SHE DOING? (IF MORE THAN ONE KIND OF WORK PROBE: DURING 
+1978, WHAT KIND OF WORK DID SHE DO THE LONGEST?) WHAT WERE SOME OF HER MAIN 
+ACTIVITIES OR DUTIES? (PROBE FOR 2 MAIN ACTIVITIES)
+ 
+SEE ATTACHMENT 3 FOR DEFINITIONS
+ 
+UNIVERSE: R with mother/mother figure; mother/mother figure worked for pay 
+previous year
+ 
+     842           1 TO 195: 001-195 PROFESSIONAL,TECHNICAL AND KINDRED
+     315         201 TO 245: 201-245 MANAGERS,OFFICIALS AND PROPRIETORS
+     363         260 TO 285: 260-285 SALES WORKERS
+    1760         301 TO 395: 301-395 CLERICAL AND KINDRED
+     166         401 TO 575: 401-575 CRAFTSMEN,FOREMEN AND KINDRED
+       1         580 TO 590: 580-590 ARMED FORCES
+    1368         601 TO 715: 601-715 OPERATIVES AND KINDRED
+      72         740 TO 785: 740-785 LABORERS, EXCEPT FARM
+      12         801 TO 802: 801-802 FARMERS AND FARM MANAGERS
+     147         821 TO 824: 821-824 FARM LABORERS AND FOREMAN
+    1698         901 TO 965: 901-965 SERVICE WORKERS, EXCEPT PRIVATE HOUSEHOLD
+     373         980 TO 984: 980-984 PRIVATE HOUSEHOLD
+  -------
+    7117
+ 
+Refusal(-1)            3
+Don't Know(-2)        80
+Invalid Skip(-3)     273
+TOTAL =========>    7473   VALID SKIP(-4)    5213     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:            984        Mean:              556.78
+ 
+Lead In: R00068.00[Default]
+Default Next Question: R00070.00
+--------------------------------------------------------------------------------
+R00079.00    [HGC-FATHER]                                   Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED BY R'S FATHER
+ 
+ORIGINAL QUESTION NAME: S01Q23
+ 
+LET'S GO BACK TO YOUR FATHER NOW. WHAT IS THE HIGHEST GRADE OR YEAR OF REGULAR 
+SCHOOL THAT YOUR FATHER EVER COMPLETED?
+ 
+UNIVERSE: R with father/father figure
+ 
+     199       0 NONE
+      48       1 1ST GRADE
+     102       2 2ND GRADE
+     215       3 3RD GRADE
+     208       4 4TH GRADE
+     190       5 5TH GRADE
+     499       6 6TH GRADE
+     306       7 7TH GRADE
+     950       8 8TH GRADE
+     568       9 9TH GRADE
+     754      10 10TH GRADE
+     616      11 11TH GRADE
+    3694      12 12TH GRADE
+     286      13 1ST YR COL
+     558      14 2ND YR COL
+     162      15 3RD YR COL
+     899      16 4TH YR COL
+     151      17 5TH YR COL
+     209      18 6TH YR COL
+      56      19 7TH YR COL
+     210      20 8TH YR COL OR MORE
+       0      95 UNGRADED
+  -------
+   10880
+ 
+Refusal(-1)            3
+Don't Know(-2)      1150
+Invalid Skip(-3)     423
+TOTAL =========>   12456   VALID SKIP(-4)     230     NON-INTERVIEW(-5)       0
+ 
+Lead In: R00077.00[Default]
+Default Next Question: R00080.00
+--------------------------------------------------------------------------------
+R00083.00    [FAMOCC-26]                                    Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             OCCUPATION OF LONGEST JOB IN 1978, R'S FATHER/STEPFATHER (CENSUS 3 
+             DIGIT)
+ 
+ORIGINAL QUESTION NAME: S01Q26A
+ 
+WHAT KIND OF WORK WAS HE DOING? (IF MORE THAN ONE KIND OF WORK PROBE: DURING 
+1978, WHAT KIND OF WORK DID HE DO THE LONGEST?) WHAT WERE SOME OF HIS MAIN 
+ACTIVITIES OR DUTIES? (PROBE FOR 2 MAIN DUTIES)
+ 
+SEE ATTACHMENT 3 FOR DEFINITIONS
+ 
+UNIVERSE: R with father/father figure; father/father figure worked for pay 
+previous year
+ 
+    1025           1 TO 195: 001-195 PROFESSIONAL,TECHNICAL AND KINDRED
+    1219         201 TO 245: 201-245 MANAGERS,OFFICIALS AND PROPRIETORS
+     410         260 TO 285: 260-285 SALES WORKERS
+     387         301 TO 395: 301-395 CLERICAL AND KINDRED
+    2310         401 TO 575: 401-575 CRAFTSMEN,FOREMEN AND KINDRED
+     142         580 TO 590: 580-590 ARMED FORCES
+    1732         601 TO 715: 601-715 OPERATIVES AND KINDRED
+     602         740 TO 785: 740-785 LABORERS, EXCEPT FARM
+     236         801 TO 802: 801-802 FARMERS AND FARM MANAGERS
+     250         821 TO 824: 821-824 FARM LABORERS AND FOREMAN
+     697         901 TO 965: 901-965 SERVICE WORKERS, EXCEPT PRIVATE HOUSEHOLD
+       5         980 TO 984: 980-984 PRIVATE HOUSEHOLD
+  -------
+    9015
+ 
+Refusal(-1)           10
+Don't Know(-2)       206
+Invalid Skip(-3)     464
+TOTAL =========>    9695   VALID SKIP(-4)    2991     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:            984        Mean:              493.83
+ 
+Lead In: R00082.00[Default]
+Default Next Question: R00084.00
+--------------------------------------------------------------------------------
+R00091.00    [FAM-28A]                                      Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             NUMBER OF SIBLINGS
+ 
+ORIGINAL QUESTION NAME: S01Q28A
+ 
+SEE R(90.)
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: All
+ 
+     362           0
+    1611           1
+    2530           2
+    2412           3
+    1783           4
+    1198           5
+     933           6
+     634           7
+     421           8
+     289           9
+     178          10
+     116          11
+      67          12
+      64          13
+      27          14
+      11          15
+      32          16 TO 99999: 16+
+  -------
+   12668
+ 
+Refusal(-1)            1
+Don't Know(-2)         3
+Invalid Skip(-3)      14
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:             29        Mean:                3.85
+ 
+Lead In: R00090.00[Default]
+Default Next Question: R00092.00
+--------------------------------------------------------------------------------
+R00173.00    [Q3-4]                                         Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED
+ 
+ORIGINAL QUESTION NAME: S04Q07
+ 
+WHAT IS THE HIGHEST GRADE OR YEAR OF REGULAR SCHOOL THAT YOU HAVE COMPLETED AND 
+GOT CREDIT FOR?
+ 
+UNIVERSE: All except those without any formal schooling
+ 
+       5       0 NONE
+       3       1 1ST GRADE
+       1       2 2ND GRADE
+      17       3 3RD GRADE
+      18       4 4TH GRADE
+      31       5 5TH GRADE
+     120       6 6TH GRADE
+     506       7 7TH GRADE
+    1675       8 8TH GRADE
+    1863       9 9TH GRADE
+    1918      10 10TH GRADE
+    1570      11 11TH GRADE
+    3347      12 12TH GRADE
+     711      13 1ST YR COL
+     459      14 2ND YR COL
+     251      15 3RD YR COL
+      35      16 4TH YR COL
+       1      17 5TH YR COL
+       1      18 6TH YR COL
+       0      19 7TH YR COL
+       0      20 8TH YR COL OR MORE
+       2      95 UNGRADED
+  -------
+   12534
+ 
+Refusal(-1)            0
+Don't Know(-2)         2
+Invalid Skip(-3)     144
+TOTAL =========>   12680   VALID SKIP(-4)       6     NON-INTERVIEW(-5)       0
+ 
+Lead In: R00172.00[Default]
+Default Next Question: R00173.02
+--------------------------------------------------------------------------------
+R01449.00    [Q11-4]                                        Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             DOES HEALTH LIMIT KIND OF WORK R CAN DO?
+ 
+ORIGINAL QUESTION NAME: S16Q02A
+ 
+(ARE YOU/WOULD YOU BE) LIMITED IN THE KIND OF WORK YOU (COULD) DO ON A JOB FOR 
+PAY BECAUSE OF YOUR HEALTH?
+ 
+UNIVERSE: R had job last week OR health would not prevent working at job for pay
+ 
+     531       1 YES
+   11909       0 NO
+  -------
+   12440
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+Invalid Skip(-3)       9
+TOTAL =========>   12450   VALID SKIP(-4)     236     NON-INTERVIEW(-5)       0
+ 
+Lead In: R01448.00[Default]
+Default Next Question: R01450.00
+--------------------------------------------------------------------------------
+R01450.00    [Q11-5]                                        Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             DOES HEALTH LIMIT AMOUNT OF WORK R CAN DO?
+ 
+ORIGINAL QUESTION NAME: S16Q02B
+ 
+(ARE YOU/WOULD YOU BE) LIMITED IN THE AMOUNT OF WORK YOU (COULD) DO BECAUSE OF 
+YOUR HEALTH?
+ 
+UNIVERSE: R had job last week OR health would not prevent working at job for pay
+ 
+     344       1 YES
+   12097       0 NO
+  -------
+   12441
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+Invalid Skip(-3)      16
+TOTAL =========>   12458   VALID SKIP(-4)     228     NON-INTERVIEW(-5)       0
+ 
+Lead In: R01449.00[Default]
+Default Next Question: R01451.00
+--------------------------------------------------------------------------------
+R01554.00    [Q13-5]                                        Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST CALENDAR YEAR
+ 
+ORIGINAL QUESTION NAME: S21Q02A
+ 
+(IF R IS CURRENTLY ON ACTIVE DUTY IN THE MILITARY OR HAS SERVED
+IN THE MILITARY SINCE JAN. 1, 1978, READ: NOT COUNTING ANY MONEY YOU RECEIVED 
+FROM YOUR MILITARY SERVICE... DURING 1978, HOW MUCH DID YOU RECEIVE FROM WAGES, 
+SALARY, COMMISSIONS, OR TIPS FROM ALL JOBS, BEFORE DEDUCTIONS FOR TAXES OR 
+ANYTHING ELSE?
+ 
+ACTUAL DOLLARS
+ 
+UNIVERSE: R has had a child/is >= 18/currently enrolled in college/lives outside
+of parental home/has been married OR R currently on active duty in the 
+military/has served in the military in past calendar year
+ 
+    1688           0
+      88           1 TO 99
+     109         100 TO 199
+     133         200 TO 299
+     156         300 TO 399
+     137         400 TO 499
+     167         500 TO 599
+     126         600 TO 699
+     111         700 TO 799
+     143         800 TO 899
+     100         900 TO 999
+    3941        1000 TO 9999999: 1000+
+  -------
+    6899
+ 
+Refusal(-1)           24
+Don't Know(-2)       120
+Invalid Skip(-3)     300
+TOTAL =========>    7343   VALID SKIP(-4)    5343     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:          65000        Mean:             2571.44
+ 
+Lead In: R01553.00[Default]
+Default Next Question: R01555.00
+--------------------------------------------------------------------------------
+R01736.00    [SAMPLE_ID]                                    Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE IDENTIFICATION CODE
+ 
+ORIGINAL QUESTION NAME: S24Q01
+ 
+UNIVERSE: Entire Sample
+ 
+    2236       1 CROSS MALE WHITE
+     203       2 CROSS MALE WH. POOR
+     346       3 CROSS MALE BLACK
+     218       4 CROSS MALE HISPANIC
+    2279       5 CROSS FEMALE WHITE
+     198       6 CROSS FEMALE WH POOR
+     405       7 CROSS FEMALE BLACK
+     226       8 CROSS FEMALE HISPANIC
+     742       9 SUP MALE WH POOR
+    1105      10 SUP MALE BLACK
+     729      11 SUP MALE HISPANIC
+     901      12 SUP FEM WH POOR
+    1067      13 SUP FEMALE BLACK
+     751      14 SUP FEMALE HISPANIC
+     609      15 MIL MALE WHITE
+     162      16 MIL MALE BLACK
+      53      17 MIL MALE HISPANIC
+     342      18 MIL FEMALE WHITE
+      89      19 MIL FEMALE BLACK
+      25      20 MIL FEMALE HISPANIC
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+MARCH 1, 1986  NORC
+ 
+SEX CODE CHANGED ON 42 CASES
+ 
+Lead In: R01735.18[Default] R01735.19[Default] R01735.14[Default] 
+         R01735.16[Default] R01735.17[Default] R01735.15[Default] 
+         R01735.00[Default]
+Default Next Question: R01737.00
+--------------------------------------------------------------------------------
+R02147.00    [SAMPLE_RACE]                                  Survey Year: 78SCRN
+  PRIMARY VARIABLE
+
+ 
+             R'S RACIAL/ETHNIC COHORT FROM SCREENER
+ 
+UNIVERSE: Entire Sample
+ 
+    2002       1 HISPANIC
+    3174       2 BLACK
+    7510       3 NON-BLACK, NON-HISPANIC
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+AUGUST 26, 1980  DENNIS GREY
+ 
+DESCRIPTION:
+COHORT=3;
+IF R(1736.)=4 ! R(1736.)=8 ! R(1736.)=11 ! R(1736.)=14 THEN COHORT=1;
+IF R(1736.)=17 ! R(1736.)=20 THEN COHORT=1;
+IF R(1736.)=3 ! R(1736.)=7 ! R(1736.)=10 ! R(1736.)=13 THEN COHORT=2;
+IF R(1736.)=16 ! R(1736.)=19 THEN COHORT=2;
+R(2147.)=COHORT;
+ 
+Lead In: R02146.00[Default]
+Default Next Question: R02148.00
+--------------------------------------------------------------------------------
+R02148.00    [SAMPLE_SEX]                                   Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             SEX OF R
+ 
+UNIVERSE: Entire sample
+ 
+    6403       1 MALE
+    6283       2 FEMALE
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+AUGUST 26, 1980  DENNIS GREY
+MARCH 1, 1986  NORC
+ 
+DESCRIPTION:
+IF (R(1736.)>0 & R(1736.)<=4) ! (R(1736.)>=9 & R(1736.)<=11) THEN SEX=1;
+IF R(1736.)>=15 & R(1736.)<=17 THEN SEX=1;
+IF (R(1736.)>=5 & R(1736.)<=8) ! (R(1736.)>=12 & R(1736.)<=14) THEN SEX=
+IF R(1736.)>=18 & R(1736.)<=20 THEN SEX=2;
+R(2148.)=SEX;
+SEX CODE CHANGED ON 42 CASES
+ 
+Lead In: R02147.00[Default]
+Default Next Question: R02149.00
+--------------------------------------------------------------------------------
+R02157.10    [HRSWK-PCY]                                    Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             NUMBER OF HOURS WORKED IN PAST CALENDAR YEAR *KEY*
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL HOURS
+ 
+UNIVERSE: ALL except those with no work
+ 
+    3130           0
+    2228           1 TO 499
+    1696         500 TO 999
+    1103        1000 TO 1499
+     749        1500 TO 1999
+     782        2000 TO 2499
+     114        2500 TO 2999
+      66        3000 TO 3499
+      18        3500 TO 3999
+       7        4000 TO 4499
+       2        4500 TO 4999
+  -------
+    9895
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     278
+TOTAL =========>   10173   VALID SKIP(-4)    2513     NON-INTERVIEW(-5)       0
+ 
+Min:              0        Max:           4992        Mean:              685.73
+ 
+AUGUST 1983  DENNIS GREY
+ 
+COMMENTS:
+NOTE: THIS KEY VARIABLE CONTAINS A VALID CODE FOR EACH RESPONDENT EVEN
+IF ALL TIME CANNOT BE ACCOUNTED FOR. IT SHOULD BE USED IN CONCERT WITH
+VARIABLE R02157.01 THAT TELLS WHAT PERCENTAGE OF TIME IS MISSING FOR
+EACH RESPONDENT.
+ 
+Lead In: R02157.01[Default]
+Default Next Question: R02158.00
+--------------------------------------------------------------------------------
+R02175.01    [MARSTAT-KEY]                                  Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+UNIVERSE: Entire Sample
+ 
+   11117       0 NEVER MARRIED
+    1352       1 MARRIED
+     130       2 SEPARATED
+      84       3 DIVORCED
+       0       5 REMARRIED
+       1       6 WIDOWED
+  -------
+   12684
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Lead In: R02175.00[Default]
+Default Next Question: R02175.02
+--------------------------------------------------------------------------------
+R04056.01    [MARSTAT-KEY]                                  Survey Year: 1980
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+UNIVERSE: All
+ 
+   10025       0 NEVER MARRIED
+    1827       1 MARRIED
+     157       2 SEPARATED
+     121       3 DIVORCED
+       0       5 REMARRIED
+       9       6 WIDOWED
+  -------
+   12139
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   12141   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     545
+ 
+Lead In: R04056.00[Default]
+Default Next Question: R04057.00
+--------------------------------------------------------------------------------
+R04174.00    [Q3-4]                                         Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED
+ 
+ORIGINAL QUESTION NAME: S04D0320
+ 
+WHAT IS THE HIGHEST GRADE OR YEAR OF REGULAR SCHOOL THAT YOU HAVE COMPLETED AND 
+GOTTEN CREDIT FOR?
+ 
+UNIVERSE: All except those without any formal schooling
+ 
+       0       0 NONE
+       0       1 1ST GRADE
+       2       2 2ND GRADE
+       0       3 3RD GRADE
+       0       4 4TH GRADE
+       2       5 5TH GRADE
+       2       6 6TH GRADE
+      19       7 7TH GRADE
+     104       8 8TH GRADE
+     433       9 9TH GRADE
+    1271      10 10TH GRADE
+    1193      11 11TH GRADE
+    1554      12 12TH GRADE
+     646      13 1ST YR COL
+     475      14 2ND YR COL
+     346      15 3RD YR COL
+     245      16 4TH YR COL
+      40      17 5TH YR COL
+       2      18 6TH YR COL
+       0      19 7TH YR COL
+       0      20 8TH YR COL OR MORE
+       4      95 UNGRADED
+  -------
+    6338
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    6338   VALID SKIP(-4)    5857     NON-INTERVIEW(-5)     491
+ 
+Lead In: R04173.00[Default]
+Default Next Question: R04175.00
+--------------------------------------------------------------------------------
+R04816.00    [HEALTH-HEIGHT]                                Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             HEIGHT OF R
+ 
+ORIGINAL QUESTION NAME: S11D2847
+ 
+HOW TALL ARE YOU?
+ 
+ACTUAL FEET AND INCHES
+ 
+UNIVERSE: All
+ 
+       0           0
+       0           1 TO 99
+       0         100 TO 199
+       0         200 TO 299
+       0         300 TO 399
+     215         400 TO 499
+   10010         500 TO 599
+    1918         600 TO 699
+       0         700 TO 799
+       0         800 TO 899
+       0         900 TO 999
+       0        1000 TO 9999999: 1000+
+  -------
+   12143
+ 
+Refusal(-1)            2
+Don't Know(-2)        23
+Invalid Skip(-3)      27
+TOTAL =========>   12195   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     491
+ 
+Min:            400        Max:            611        Mean:              519.35
+ 
+Lead In: R04813.00[Default] R04815.00[Default]
+Default Next Question: R04817.00
+--------------------------------------------------------------------------------
+R04817.00    [Q11-9]                                        Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             WEIGHT OF R
+ 
+ORIGINAL QUESTION NAME: S11D2850
+ 
+AND HOW MUCH DO YOU WEIGH?
+ 
+ACTUAL POUNDS
+ 
+UNIVERSE: All
+ 
+       0           0
+       0           1 TO 24
+       0          25 TO 49
+       3          50 TO 74
+     213          75 TO 99
+    2744         100 TO 124
+    4144         125 TO 149
+    3034         150 TO 174
+    1359         175 TO 199
+     431         200 TO 224
+     133         225 TO 249
+      71         250 TO 9999999: 250+
+  -------
+   12132
+ 
+Refusal(-1)           13
+Don't Know(-2)        25
+Invalid Skip(-3)      25
+TOTAL =========>   12195   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     491
+ 
+Min:             53        Max:            375        Mean:               145.5
+ 
+Lead In: R04816.00[Default]
+Default Next Question: R04818.00
+--------------------------------------------------------------------------------
+R06186.01    [MARSTAT-KEY]                                  Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+UNIVERSE: All
+ 
+    9354       0 NEVER MARRIED
+    2424       1 MARRIED
+     230       2 SEPARATED
+     171       3 DIVORCED
+       0       5 REMARRIED
+      16       6 WIDOWED
+  -------
+   12195
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12195   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     491
+ 
+Lead In: R06186.00[Default]
+Default Next Question: R06188.00
+--------------------------------------------------------------------------------
+R06466.00    [HRSWK-PCY]                                    Survey Year: 1981
+  PRIMARY VARIABLE
+
+ 
+             NUMBER OF HOURS WORKED IN PAST CALENDAR YEAR *KEY*
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+ACTUAL HOURS
+ 
+UNIVERSE: R >= 16; interviewed in prior survey
+ 
+    2627           0
+    2047           1 TO 499
+    1905         500 TO 999
+    1433        1000 TO 1499
+    1292        1500 TO 1999
+    1468        2000 TO 2499
+     189        2500 TO 2999
+      63        3000 TO 3499
+      28        3500 TO 3999
+      14        4000 TO 4499
+       1        4500 TO 4999
+       0        5000 TO 9999999: 5000+
+  -------
+   11067
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)     171
+TOTAL =========>   11238   VALID SKIP(-4)     957     NON-INTERVIEW(-5)     491
+ 
+Min:              0        Max:           4740        Mean:              903.92
+ 
+AUGUST 1983  DENNIS GREY
+ 
+COMMENTS:
+NOTE: THIS KEY VARIABLE CONTAINS A VALID CODE FOR EACH RESPONDENT EVEN
+IF ALL TIME CANNOT BE ACCOUNTED FOR. IT SHOULD BE USED IN CONCERT WITH
+VARIABLE R(6463.01) THAT TELLS WHAT PERCENTAGE OF TIME IS MISSING FOR
+EACH RESPONDENT.
+ 
+Lead In: R06465.00[Default]
+Default Next Question: R06466.10
+--------------------------------------------------------------------------------
+R07821.01    [Q13-5_TRUNC_REVISED]                          Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST CALENDAR YEAR (TRUNC) 
+             (REVISED)
+ 
+ORIGINAL QUESTION NAME: S14D4334
+ 
+NOT COUNTING ANY MONEY YOU RECEIVED FROM YOUR MILITARY SERVICE DURING 1981, HOW 
+MUCH DID YOU RECEIVE FROM WAGES, SALARY, COMMISSIONS, OR TIPS FROM ALL (OTHER) 
+JOBS, BEFORE DEDUCTIONS FOR TAXES OR ANYTHING ELSE?
+ 
+ACTUAL DOLLARS
+ 
+UNIVERSE: R >= 18/has been married/has had a child/currently enrolled in 
+college/lives outside of parental home
+ 
+    2541           0
+    1306           1 TO 999
+     953        1000 TO 1999
+     819        2000 TO 2999
+     734        3000 TO 3999
+     527        4000 TO 4999
+     498        5000 TO 5999
+     465        6000 TO 6999
+     441        7000 TO 7999
+     451        8000 TO 8999
+     376        9000 TO 9999
+    1256       10000 TO 14999
+     458       15000 TO 19999
+      97       20000 TO 24999
+     187       25000 TO 49999
+       0       50000 TO 9999999: 50000+
+  -------
+   11109
+ 
+Refusal(-1)           35
+Don't Know(-2)       118
+Invalid Skip(-3)      19
+TOTAL =========>   11281   VALID SKIP(-4)     842     NON-INTERVIEW(-5)     563
+ 
+Min:              0        Max:          28975        Mean:             4861.28
+ 
+Revised topcode: Top 2% of values are replaced with the group average.
+ 
+Lead In: None.
+Default Next Question: R07822.00
+--------------------------------------------------------------------------------
+R08984.01    [MARSTAT-KEY]                                  Survey Year: 1982
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+UNIVERSE: All
+ 
+    8549       0 NEVER MARRIED
+    3010       1 MARRIED
+     276       2 SEPARATED
+     269       3 DIVORCED
+       0       5 REMARRIED
+      15       6 WIDOWED
+  -------
+   12119
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       4
+TOTAL =========>   12123   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     563
+ 
+Lead In: R08984.00[Default]
+Default Next Question: R08985.00
+--------------------------------------------------------------------------------
+R11449.01    [MARSTAT-KEY]                                  Survey Year: 1983
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+    7840       0 NEVER MARRIED
+    3665       1 MARRIED
+     334       2 SEPARATED
+     365       3 DIVORCED
+       0       5 REMARRIED
+      15       6 WIDOWED
+  -------
+   12219
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   12221   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     465
+ 
+Lead In: R11449.00[Default]
+Default Next Question: R11450.00
+--------------------------------------------------------------------------------
+R15201.01    [MARSTAT-KEY]                                  Survey Year: 1984
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+    7093       0 NEVER MARRIED
+    4099       1 MARRIED
+     400       2 SEPARATED
+     455       3 DIVORCED
+       0       5 REMARRIED
+      21       6 WIDOWED
+  -------
+   12068
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   12069   VALID SKIP(-4)       0     NON-INTERVIEW(-5)     617
+ 
+Lead In: R15201.00[Default]
+Default Next Question: R15202.00
+--------------------------------------------------------------------------------
+R16051.00    [Q3-4]                                         Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED
+ 
+ORIGINAL QUESTION NAME: Q0262
+ 
+WHAT IS THE HIGHEST GRADE OR YEAR OF REGULAR SCHOOL THAT YOU HAVE
+COMPLETED AND GOTTEN CREDIT FOR?
+ 
+UNIVERSE: All except those without any formal schooling
+ 
+       0       0 NONE
+       1       1 1ST GRADE
+       0       2 2ND GRADE
+       1       3 3RD GRADE
+       0       4 4TH GRADE
+       0       5 5TH GRADE
+       2       6 6TH GRADE
+       0       7 7TH GRADE
+       8       8 8TH GRADE
+      15       9 9TH GRADE
+      23      10 10TH GRADE
+      50      11 11TH GRADE
+     303      12 12TH GRADE
+     345      13 1ST YR COL
+     568      14 2ND YR COL
+     403      15 3RD YR COL
+     394      16 4TH YR COL
+      93      17 5TH YR COL
+      48      18 6TH YR COL
+      24      19 7TH YR COL
+      14      20 8TH YR COL OR MORE
+       3      95 UNGRADED
+  -------
+    2295
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    2295   VALID SKIP(-4)    8599     NON-INTERVIEW(-5)    1792
+ 
+Lead In: R16050.00[Default]
+Default Next Question: R16052.00
+--------------------------------------------------------------------------------
+R17739.00    [HEALTH-HEIGHT]                                Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             HEIGHT OF R
+ 
+ORIGINAL QUESTION NAME: Q4749
+ 
+HOW TALL ARE YOU?
+ 
+ACTUAL INCHES
+ 
+       0           0
+       0           1 TO 9
+       0          10 TO 19
+       0          20 TO 29
+       0          30 TO 39
+       4          40 TO 49
+     179          50 TO 59
+    7416          60 TO 69
+    3261          70 TO 79
+       3          80 TO 89
+       0          90 TO 99
+       0         100 TO 9999999: 100+
+  -------
+   10863
+ 
+Refusal(-1)            2
+Don't Know(-2)         3
+Invalid Skip(-3)      26
+TOTAL =========>   10894   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1792
+ 
+Min:             48        Max:             81        Mean:               67.08
+ 
+Lead In: R17737.00[Default]
+Default Next Question: R17740.00
+--------------------------------------------------------------------------------
+R17740.00    [Q11-9]                                        Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             WEIGHT OF R
+ 
+ORIGINAL QUESTION NAME: Q4751
+ 
+HOW MUCH DO YOU WEIGH?  ACTUAL POUNDS
+ 
+       0           0
+       0           1 TO 24
+       1          25 TO 49
+       2          50 TO 74
+     124          75 TO 99
+    1953         100 TO 124
+    3160         125 TO 149
+    2989         150 TO 174
+    1640         175 TO 199
+     602         200 TO 224
+     243         225 TO 249
+     121         250 TO 9999999: 250+
+  -------
+   10835
+ 
+Refusal(-1)           27
+Don't Know(-2)        11
+Invalid Skip(-3)      21
+TOTAL =========>   10894   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1792
+ 
+Min:             47        Max:            365        Mean:              152.79
+ 
+Lead In: R17739.00[Default]
+Default Next Question: R17741.00
+--------------------------------------------------------------------------------
+R17785.01    [Q13-5_TRUNC_REVISED]                          Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST CALENDAR YEAR (TRUNC) 
+             (REVISED)
+ 
+ORIGINAL QUESTION NAME: Q4848
+ 
+NOT COUNTING ANY MONEY YOU RECEIVED FROM YOUR MILITARY SERVICE... DURING 1984, 
+HOW MUCH DID YOU RECEIVE FROM WAGES, SALARY, COMMISSIONS, OR TIPS FROM ALL 
+(OTHER) JOBS, BEFORE DEDUCTIONS FOR TAXES OR ANYTHING ELSE?
+ 
+ACTUAL DOLLARS
+ 
+UNIVERSE: All
+ 
+    2055           0
+     706           1 TO 999
+     637        1000 TO 1999
+     571        2000 TO 2999
+     500        3000 TO 3999
+     418        4000 TO 4999
+     432        5000 TO 5999
+     415        6000 TO 6999
+     444        7000 TO 7999
+     447        8000 TO 8999
+     397        9000 TO 9999
+    1745       10000 TO 14999
+    1044       15000 TO 19999
+     522       20000 TO 24999
+     438       25000 TO 49999
+       0       50000 TO 9999999: 50000+
+  -------
+   10771
+ 
+Refusal(-1)           47
+Don't Know(-2)        75
+Invalid Skip(-3)       1
+TOTAL =========>   10894   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1792
+ 
+Min:              0        Max:          39389        Mean:             7884.68
+ 
+Revised topcode: Top 2% of values are replaced with the group average.
+ 
+Lead In: None.
+Default Next Question: R17786.00
+--------------------------------------------------------------------------------
+R18908.01    [MARSTAT-KEY]                                  Survey Year: 1985
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+    6058       0 NEVER MARRIED
+    3916       1 MARRIED
+     375       2 SEPARATED
+     527       3 DIVORCED
+       0       5 REMARRIED
+      17       6 WIDOWED
+  -------
+   10893
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   10894   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    1792
+ 
+Lead In: R18908.00[Default]
+Default Next Question: R18909.00
+--------------------------------------------------------------------------------
+R22579.01    [MARSTAT-KEY]                                  Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+    5319       0 NEVER MARRIED
+    4317       1 MARRIED
+     381       2 SEPARATED
+     614       3 DIVORCED
+       0       5 REMARRIED
+      24       6 WIDOWED
+  -------
+   10655
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10655   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2031
+ 
+Lead In: R22579.00[Default]
+Default Next Question: R22580.00
+--------------------------------------------------------------------------------
+R22582.00    [HRSWK-PCY]                                    Survey Year: 1986
+  PRIMARY VARIABLE
+
+ 
+             NUMBER OF HOURS WORKED IN PAST CALENDAR YEAR *KEY*
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+NOTE: THIS KEY VARIABLE CONTAINS A VALID CODE FOR EACH RESPONDENT EVEN IF ALL 
+TIME CANNOT BE ACCOUNTED FOR. IT SHOULD BE USED IN CONCERT WITH VARIABLE 
+R(22586.) THAT TELLS WHAT PERCENTAGE OF TIME IS MISSING FOR EACH RESPONDENT.  
+ACTUAL HOURS
+ 
+    1737           0
+     892           1 TO 499
+    1010         500 TO 999
+    1168        1000 TO 1499
+    1647        1500 TO 1999
+    3144        2000 TO 2499
+     640        2500 TO 2999
+     246        3000 TO 3499
+      70        3500 TO 3999
+      39        4000 TO 4499
+       7        4500 TO 4999
+       0        5000 TO 9999999: 5000+
+  -------
+   10600
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      55
+TOTAL =========>   10655   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2031
+ 
+Min:              0        Max:           4880        Mean:             1422.93
+ 
+Lead In: R22581.10[Default]
+Default Next Question: R22583.00
+--------------------------------------------------------------------------------
+R24453.01    [MARSTAT-KEY]                                  Survey Year: 1987
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+    4629       0 NEVER MARRIED
+    4666       1 MARRIED
+     423       2 SEPARATED
+     740       3 DIVORCED
+       0       5 REMARRIED
+      27       6 WIDOWED
+  -------
+   10485
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10485   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2201
+ 
+Lead In: R24453.00[Default]
+Default Next Question: R24454.00
+--------------------------------------------------------------------------------
+R28710.00    [MARSTAT-KEY]                                  Survey Year: 1988
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+    4038       0 NEVER MARRIED
+    5041       1 MARRIED
+     498       2 SEPARATED
+     853       3 DIVORCED
+       0       5 REMARRIED
+      31       6 WIDOWED
+  -------
+   10461
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10461   VALID SKIP(-4)       4     NON-INTERVIEW(-5)    2221
+ 
+Lead In: R28709.00[Default]
+Default Next Question: R28711.00
+--------------------------------------------------------------------------------
+R30747.00    [MARSTAT-KEY]                                  Survey Year: 1989
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+    3734       0 NEVER MARRIED
+    5352       1 MARRIED
+     523       2 SEPARATED
+     960       3 DIVORCED
+       0       5 REMARRIED
+      36       6 WIDOWED
+  -------
+   10605
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   10605   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2081
+ 
+Lead In: R30746.00[Default]
+Default Next Question: R30748.00
+--------------------------------------------------------------------------------
+R34014.00    [MARSTAT-KEY]                                  Survey Year: 1990
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+    3376       0 NEVER MARRIED
+    5450       1 MARRIED
+     561       2 SEPARATED
+    1001       3 DIVORCED
+       0       5 REMARRIED
+      47       6 WIDOWED
+  -------
+   10435
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       1
+TOTAL =========>   10436   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    2250
+ 
+Lead In: R34013.00[Default]
+Default Next Question: R34015.00
+--------------------------------------------------------------------------------
+R36568.00    [MARSTAT-KEY]                                  Survey Year: 1991
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+    2867       0 NEVER MARRIED
+    4745       1 MARRIED
+     483       2 SEPARATED
+     880       3 DIVORCED
+       0       5 REMARRIED
+      43       6 WIDOWED
+  -------
+    9018
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9018   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3668
+ 
+Lead In: R36567.00[Default]
+Default Next Question: R36569.00
+--------------------------------------------------------------------------------
+R40073.00    [MARSTAT-KEY]                                  Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+    2667       0 NEVER MARRIED
+    4840       1 MARRIED
+     512       2 SEPARATED
+     955       3 DIVORCED
+       0       5 REMARRIED
+      42       6 WIDOWED
+  -------
+    9016
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9016   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3670
+ 
+Lead In: R40072.00[Default]
+Default Next Question: R40074.00
+--------------------------------------------------------------------------------
+R41345.00    [SIBROS_TOTAL_NUM_SIBS]                        Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NUMBER OF SIBLINGS R HAS
+ 
+ORIGINAL QUESTION NAME: Q2-37
+ 
+How many brothers and sisters do you have altogether (including your
+brothers and sisters that we have just talked about)?
+(ENTER NUMBER)
+ 
+       0           0
+       5           1 TO 4
+       0           5 TO 9
+      13          10 TO 14
+      30          15 TO 19
+       4          20 TO 24
+       0          25 TO 29
+       0          30 TO 34
+       0          35 TO 39
+       0          40 TO 44
+       0          45 TO 49
+       0          50 TO 9999999: 50+
+  -------
+      52
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>      52   VALID SKIP(-4)    8959     NON-INTERVIEW(-5)    3675
+ 
+Min:              1        Max:             22        Mean:               14.35
+ 
+Lead In: R41344.00[Default]
+Default Next Question: R41347.00
+--------------------------------------------------------------------------------
+R44184.00    [MARSTAT-KEY]                                  Survey Year: 1993
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+ORIGINAL QUESTION NAME: MARSTAT-KEY
+ 
+COMMENT: Marital Status
+ 
+    2521       0 NEVER MARRIED
+    4917       1 MARRIED
+     524       2 SEPARATED
+    1002       3 DIVORCED
+      47       6 WIDOWED
+  -------
+    9011
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    9011   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3675
+ 
+Lead In: R44183.00[Default]
+Default Next Question: R44185.00
+--------------------------------------------------------------------------------
+R50814.00    [MARSTAT-KEY]                                  Survey Year: 1994
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+COMMENT: Marital Status
+ 
+    2328           0: 0  NEVER MARRIED
+    4916           1: 1  MARRIED
+     514           2: 2  SEPARATED
+    1078           3: 3  DIVORCED
+      53           6: 6  WIDOWED
+  -------
+    8889
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    8891   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3795
+ 
+Min:              0        Max:              6        Mean:                1.07
+ 
+Lead In: R50813.00[Default]
+Default Next Question: R50815.00
+--------------------------------------------------------------------------------
+R51667.00    [MARSTAT-KEY]                                  Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+COMMENT: Marital Status
+ 
+    2063           0: NEVER MARRIED
+    4861           1: MARRIED
+     494           2: SEPARATED
+    1158           3: DIVORCED
+      60           6: WIDOWED
+  -------
+    8636
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8636   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4050
+ 
+Min:              0        Max:              6        Mean:                1.12
+ 
+Lead In: R51666.00[Default]
+Default Next Question: R51668.00
+--------------------------------------------------------------------------------
+R51671.00    [HRSWK-PCY]                                    Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             NUMBER OF HOURS WORKED IN PAST CALENDAR YEAR *KEY*
+ 
+NOTE: THIS KEY VARIABLE CONTAINS A VALID CODE FOR EACH RESPONDENT EVEN
+IF ALL TIME CANNOT BE ACCOUNTED FOR. IT SHOULD BE USED IN CONCERT WITH
+VARIABLE R(51675.) THAT TELLS WHAT PERCENTAGE OF TIME IS MISSING FOR
+EACH RESPONDENT.
+ 
+ACTUAL HOURS
+ 
+COMMENT: Hours worked in past calendar year
+ACTUAL HOURS
+ 
+    1297           0
+     409           1 TO 499
+     456         500 TO 999
+     562        1000 TO 1499
+     973        1500 TO 1999
+    3231        2000 TO 2499
+     895        2500 TO 2999
+     433        3000 TO 3499
+     168        3500 TO 3999
+      78        4000 TO 4499
+      29        4500 TO 4999
+      43        5000 TO 99999999: 5000+
+  -------
+    8574
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)      62
+TOTAL =========>    8636   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4050
+ 
+Min:              0        Max:           8736        Mean:             1745.99
+ 
+Lead In: R51670.00[Default]
+Default Next Question: R51672.00
+--------------------------------------------------------------------------------
+R52218.00    [Q3-4]                                         Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST GRADE COMPLETED
+ 
+What is the highest grade or year of regular school that you have completed and 
+gotten credit for?
+(SELECT ONE CODE BELOW).
+ 
+       0       1 1ST GRADE
+       0       2 2ND GRADE
+       0       3 3RD GRADE
+       2       4 4TH GRADE
+       0       5 5TH GRADE
+       2       6 6TH GRADE
+       0       7 7TH GRADE
+       7       8 8TH GRADE
+       9       9 9TH GRADE
+      11      10 10TH GRADE
+      34      11 11TH GRADE
+     134      12 12TH GRADE
+     120      13 1ST YEAR COLLEGE
+     154      14 2ND YEAR COLLEGE
+      71      15 3RD YEAR COLLEGE
+     117      16 4TH YEAR COLLEGE
+      50      17 5TH YEAR COLLEGE
+      61      18 6TH YEAR COLLEGE
+      17      19 7TH YEAR COLLEGE
+      28      20 8TH YEAR COLLEGE OR MORE
+       3      95 UNGRADED
+  -------
+     820
+ 
+Refusal(-1)            0
+Don't Know(-2)         1
+TOTAL =========>     821   VALID SKIP(-4)    7815     NON-INTERVIEW(-5)    4050
+ 
+Lead In: R52214.00[Default] R52217.00[Default]
+Default Next Question: R52219.00
+--------------------------------------------------------------------------------
+R56175.00    [Q11-9]                                        Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             WEIGHT OF R
+ 
+How much do you weigh?
+ 
+(ENTER POUNDS)
+ACTUAL POUNDS
+ 
+       0           0
+       0           1 TO 24
+       0          25 TO 49
+       1          50 TO 74
+      26          75 TO 99
+     692         100 TO 124
+    1720         125 TO 149
+    2026         150 TO 174
+    1911         175 TO 199
+    1144         200 TO 224
+     488         225 TO 249
+     426         250 TO 99999999: 250+
+  -------
+    8434
+ 
+Refusal(-1)          116
+Don't Know(-2)        84
+TOTAL =========>    8634   VALID SKIP(-4)       2     NON-INTERVIEW(-5)    4050
+ 
+Min:             51        Max:            420        Mean:              173.59
+ 
+Lead In: R56169.00[Default] R56173.00[Default] R56174.00[Default]  
+         R56172.00[1:1]
+Default Next Question: R56176.00
+--------------------------------------------------------------------------------
+R56262.01    [Q13-5_TRUNC_REVISED]                          Survey Year: 1996
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST CALENDAR YEAR (TRUNC) 
+             (REVISED)
+ 
+During 1995, how much did you receive from wages, salary, commissions, or tips 
+from all (other) jobs, before deductions for taxes or anything else?
+ 
+NOTE: TRUNCATED VALUES ARE APPLIED TO THE TOP APPROXIMATELY 2 PERCENT OF 
+RESPONDENTS WITH VALID NON-MISSING RESPONSES. THE LOWEST VALUE FOR THE TOP 2 
+PERCENT OF CASES IS USED AS THE TRUNCATION LEVEL ($83,500 FOR THIS VARIABLE). 
+VALUES FOR ALL CASES AT OR OVER THAT LEVEL ARE AVERAGED. THAT AVERAGE IS THEN 
+ASSIGNED TO EACH OF THE TOP 2 PERCENT OF CASES. OVERSEAS RESPONDENTS WHOSE 
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+Revised topcode.  Top 2% of values are replaced with the group average.
+ 
+    1379           0
+     135           1 TO 999
+     116        1000 TO 1999
+     117        2000 TO 2999
+     104        3000 TO 3999
+     107        4000 TO 4999
+     138        5000 TO 5999
+      93        6000 TO 6999
+     124        7000 TO 7999
+     135        8000 TO 8999
+      98        9000 TO 9999
+     807       10000 TO 14999
+     880       15000 TO 19999
+     857       20000 TO 24999
+    2403       25000 TO 49999
+     773       50000 TO 99999999: 50000+
+  -------
+    8266
+ 
+Refusal(-1)          122
+Don't Know(-2)       243
+Invalid Skip(-3)       2
+TOTAL =========>    8633   VALID SKIP(-4)       3     NON-INTERVIEW(-5)    4050
+ 
+Min:              0        Max:         138775        Mean:            22815.51
+ 
+Lead In: None.
+Default Next Question: R56263.00
+--------------------------------------------------------------------------------
+R64793.00    [MARSTAT-KEY]                                  Survey Year: 1998
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+COMMENT: Marital Status
+ 
+    1778       0 Never Married
+    4866       1 Married
+     459       2 Separated
+    1231       3 Divorced
+      65       6 Widowed
+  -------
+    8399
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    8399   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    4287
+ 
+Lead In: R64792.00[Default]
+Default Next Question: R64794.00
+--------------------------------------------------------------------------------
+R70070.00    [MARSTAT-KEY]                                  Survey Year: 2000
+  PRIMARY VARIABLE
+
+ 
+             MARITAL STATUS
+ 
+COMMENT: Marital Status
+ 
+    1578       0 Never Married
+    4666       1 Married
+     483       2 Separated
+    1234       3 Divorced
+      69       6 Widowed
+  -------
+    8030
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>    8032   VALID SKIP(-4)       1     NON-INTERVIEW(-5)    4653
+ 
+Lead In: R70069.00[Default]
+Default Next Question: R70071.00
