@@ -1,8 +1,8 @@
-PWD /Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Problem Sets/Problem Set 1/Writing
+PWD /Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Econ672_Winter2022/ProblemSets/ProblemSet1/Writing
 INPUT /usr/local/texlive/2021/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Problem Sets/Problem Set 1/Writing/ProblemSet1.tex
+INPUT /Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Econ672_Winter2022/ProblemSets/ProblemSet1/Writing/ProblemSet1.tex
 OUTPUT ProblemSet1.log
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
@@ -54,6 +54,25 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
@@ -326,6 +345,10 @@ INPUT ./ProblemSet1.aux
 INPUT ProblemSet1.aux
 INPUT ProblemSet1.aux
 OUTPUT ProblemSet1.aux
+INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-chicago/cms-american.lbx
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-chicago/cms-american.lbx
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/biblatex-chicago/cms-american.lbx
@@ -430,13 +453,13 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm

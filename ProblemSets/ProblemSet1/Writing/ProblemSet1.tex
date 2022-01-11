@@ -3,6 +3,7 @@
 \usepackage{mathptmx}
 \usepackage{enumerate}
 \usepackage{multirow}
+\usepackage{xcolor}
 \usepackage[letterpaper, margin=1in]{geometry}
 
 \usepackage[authordate,backend=bibtex]{biblatex-chicago}
@@ -18,7 +19,7 @@
 \newcommand{\question}[1]{\textbf{\noindent Question #1}}
 \newcommand{\tabindent}{\hspace{3mm}}
 
-\newcommand{\todo}{\textbf{TODO}}
+\newcommand{\todo}{\color{red}{\textbf{TODO}}}
 
 \maketitle
 % Question 1
@@ -48,11 +49,14 @@
         educational attainment, martial status, and number of siblings. Finally, 
         Table 2 contains the ln(wages) which is the dependent variable.
 
-        \item Table 3: \todo
+        \item Table 3 shows various OLS estimates for effect on ln(wages) 
+        using the controls from Table 3.  The estimates show a positive return
+        to ln(wages) for full-time white male workers based on reported height 
+        during youth.
+                
+        \item Table 4: \todo  
         
-        \item Table 4: \todo
-        
-        \item Summary: \todo
+        \item Summary: \todo  
     \end{enumerate}
 
 % Question 2

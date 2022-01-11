@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex ProblemSet1"] 1641868787 "ProblemSet1.aux" "ProblemSet1.bbl" "ProblemSet1" 1641869534
+["bibtex ProblemSet1"] 1641921838 "ProblemSet1.aux" "ProblemSet1.bbl" "ProblemSet1" 1641922293
   "../Articles/reference.bib" 1641746104 1375 79671c99886a01228c6ad6df9396650e ""
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1609451401 65407 88927b81d8f6cedfef1300ccf61cbd6b ""
-  "ProblemSet1-blx.bib" 1641869534 341 67ffb7a336d36671ca38d0eba0b00e73 "pdflatex"
-  "ProblemSet1.aux" 1641869534 2076 12203d1396cefd43cddd38495882caa6 "pdflatex"
+  "ProblemSet1-blx.bib" 1641922292 341 67ffb7a336d36671ca38d0eba0b00e73 "pdflatex"
+  "ProblemSet1.aux" 1641922292 2076 71462a8848542b58d21731b4d2c3ee0e "pdflatex"
   (generated)
   "ProblemSet1.bbl"
   "ProblemSet1.blg"
-["pdflatex"] 1641869532 "/Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Problem Sets/Problem Set 1/Writing/ProblemSet1.tex" "ProblemSet1.pdf" "ProblemSet1" 1641869534
-  "/Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Problem Sets/Problem Set 1/Writing/ProblemSet1.tex" 1641869532 11626 b23886d68738395770217ba32be67215 ""
+["pdflatex"] 1641922291 "/Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Econ672_Winter2022/ProblemSets/ProblemSet1/Writing/ProblemSet1.tex" "ProblemSet1.pdf" "ProblemSet1" 1641922293
+  "/Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Econ672_Winter2022/ProblemSets/ProblemSet1/Writing/ProblemSet1.tex" 1641922291 11900 f99b7aa9afb0badc541f25e374ab6145 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -44,6 +44,7 @@
   "/usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf" 1136768653 1132 27520247d3fe18d4266a226b461885c2 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf" 1136768653 1108 d271d6f9de4122c3f8d3b65666167fac ""
   "/usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf" 1136768653 964 5673178ff30617b900214de28ab32b38 ""
+  "/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty" 1576625223 8371 9d55b8bd010bc717624922fb3477d92e ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty" 1583617216 6501 4011d89d9621e0b0901138815ba5ff29 ""
   "/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -72,6 +73,8 @@
   "/usr/local/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx" 1609451401 38558 7b6b5c4f86b076362a57cfdb9255a6c6 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
+  "/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
+  "/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def" 1601931164 19103 48d29b6e2a64cb717117ef65f107b404 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty" 1622581934 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty" 1612734870 13242 133e617c5eebffdd05e421624022b267 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1602274869 22521 d2fceb764a442a2001d257ef11db7618 ""
@@ -91,14 +94,15 @@
   "/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/tools/enumerate.sty" 1622581934 3468 068d84ef9735e15f11c5a120c0a1a139 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
+  "/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty" 1635798903 56029 3f7889dab51d620aa43177c391b7b190 ""
   "/usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf" 1621028613 40042 fe981136cbb5f3715ab1b0e46e3d3892 ""
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1641569297 4374891 c8eaa50db59648610d53abf3959a7b8a ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1641060381 2820137 748a56785d54da3540b0f27899316f59 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "ProblemSet1.aux" 1641869534 2076 12203d1396cefd43cddd38495882caa6 "pdflatex"
-  "ProblemSet1.bbl" 1641868787 2420 a296018fa58f42929aa9d5244c03d287 "bibtex ProblemSet1"
-  "ProblemSet1.run.xml" 1641869534 2698 ce60236729ace5930e5d7d4b63350bdb "pdflatex"
-  "ProblemSet1.tex" 1641869532 11626 b23886d68738395770217ba32be67215 ""
+  "ProblemSet1.aux" 1641922292 2076 71462a8848542b58d21731b4d2c3ee0e "pdflatex"
+  "ProblemSet1.bbl" 1641921838 2420 a296018fa58f42929aa9d5244c03d287 "bibtex ProblemSet1"
+  "ProblemSet1.run.xml" 1641922292 2698 ce60236729ace5930e5d7d4b63350bdb "pdflatex"
+  "ProblemSet1.tex" 1641922291 11900 f99b7aa9afb0badc541f25e374ab6145 ""
   (generated)
   "ProblemSet1-blx.bib"
   "ProblemSet1.aux"
