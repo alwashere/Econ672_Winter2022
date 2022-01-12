@@ -267,6 +267,7 @@
 \end{table}
 
 \clearpage
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
 \question{8} \todo
 \begin{table}[h!]
     \begin{tabular}{|l | c | c | c |} 
@@ -283,16 +284,16 @@
         \hline
         Adult Characteristics & & &\\
         \hline
-        \tabindent 1981 Height & 68.61  & 72.56  & 3.95* \\
+        \tabindent 1981 Height & 68.61  & 72.56  & 3.95\sym{*} \\
                             & (2.31) & (1.92) & (0.14)\\
         \hline
-        \tabindent 1985 Height & 68.83  & 73.12  & 4.285* \\
+        \tabindent 1985 Height & 68.83  & 73.12  & 4.285\sym{*} \\
                            & (2.03) & (1.28) &  (0.11) \\
         \hline
         \tabindent Age     & 34.45  & 34.48  & 0.02 \\
                            & (2.26) & (2.32) &  (0.15)       \\
         \hline
-        \tabindent ln(wage/hour)     & 2.63   & 2.72  & 0.09* \\
+        \tabindent ln(wage/hour)     & 2.63   & 2.72  & 0.09\sym{*} \\
                                      & (0.65) & (0.64) &  (0.04)       \\
         \hline
         \tabindent Ever Married(\%)  & 85.57  & 89.11 & 0.03 \\
@@ -313,9 +314,19 @@
                                                                & (46.85) & (47.80) & (0.03) \\
         \hline
         Observations & 506 & 404 & 910 \\
-        \hline       
+        \hline\hline   
+        \multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+	\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
     \end{tabular}
-    \caption{\textit{Replication of \textcite{Persico2004} Table 2. $* p<0.05$}}
+    \caption{\textit{Replication of \textcite{Persico2004} Table 2.}}
+\end{table}
+
+\clearpage
+
+\question{9}
+\begin{table}[h!]
+	\input{../Output/table3.tex}
+    \caption{\textit{Replication of \textcite{Persico2004} Table 3 for NLSY}} 
 \end{table}
 
 \clearpage

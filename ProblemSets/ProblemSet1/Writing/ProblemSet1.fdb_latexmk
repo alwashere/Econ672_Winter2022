@@ -1,14 +1,15 @@
 # Fdb version 3
-["bibtex ProblemSet1"] 1641921838 "ProblemSet1.aux" "ProblemSet1.bbl" "ProblemSet1" 1641922293
+["bibtex ProblemSet1"] 1641954453 "ProblemSet1.aux" "ProblemSet1.bbl" "ProblemSet1" 1641954455
   "../Articles/reference.bib" 1641746104 1375 79671c99886a01228c6ad6df9396650e ""
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1609451401 65407 88927b81d8f6cedfef1300ccf61cbd6b ""
-  "ProblemSet1-blx.bib" 1641922292 341 67ffb7a336d36671ca38d0eba0b00e73 "pdflatex"
-  "ProblemSet1.aux" 1641922292 2076 71462a8848542b58d21731b4d2c3ee0e "pdflatex"
+  "ProblemSet1-blx.bib" 1641954455 341 67ffb7a336d36671ca38d0eba0b00e73 "pdflatex"
+  "ProblemSet1.aux" 1641954455 2451 41af6df61e081dbc4e8accb165c4e880 "pdflatex"
   (generated)
   "ProblemSet1.bbl"
   "ProblemSet1.blg"
-["pdflatex"] 1641922291 "/Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Econ672_Winter2022/ProblemSets/ProblemSet1/Writing/ProblemSet1.tex" "ProblemSet1.pdf" "ProblemSet1" 1641922293
-  "/Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Econ672_Winter2022/ProblemSets/ProblemSet1/Writing/ProblemSet1.tex" 1641922291 11900 f99b7aa9afb0badc541f25e374ab6145 ""
+["pdflatex"] 1641954453 "/Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Econ672_Winter2022/ProblemSets/ProblemSet1/Writing/ProblemSet1.tex" "ProblemSet1.pdf" "ProblemSet1" 1641954455
+  "../Output/table3.tex" 1641950172 2612 a174675ed1cb55784493e4d61358d372 ""
+  "/Users/alwashere/Documents/School Work/University of Maryland/MS Applied Economics/2022 1Q Winter/ECON 672 Program Evaluation/Econ672_Winter2022/ProblemSets/ProblemSet1/Writing/ProblemSet1.tex" 1641954451 12292 a4299cbf8e678e98eba840051a91f447 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -99,10 +100,10 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1641569297 4374891 c8eaa50db59648610d53abf3959a7b8a ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1641060381 2820137 748a56785d54da3540b0f27899316f59 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "ProblemSet1.aux" 1641922292 2076 71462a8848542b58d21731b4d2c3ee0e "pdflatex"
-  "ProblemSet1.bbl" 1641921838 2420 a296018fa58f42929aa9d5244c03d287 "bibtex ProblemSet1"
-  "ProblemSet1.run.xml" 1641922292 2698 ce60236729ace5930e5d7d4b63350bdb "pdflatex"
-  "ProblemSet1.tex" 1641922291 11900 f99b7aa9afb0badc541f25e374ab6145 ""
+  "ProblemSet1.aux" 1641954455 2451 41af6df61e081dbc4e8accb165c4e880 "pdflatex"
+  "ProblemSet1.bbl" 1641954453 2420 a296018fa58f42929aa9d5244c03d287 "bibtex ProblemSet1"
+  "ProblemSet1.run.xml" 1641954455 2698 ce60236729ace5930e5d7d4b63350bdb "pdflatex"
+  "ProblemSet1.tex" 1641954451 12292 a4299cbf8e678e98eba840051a91f447 ""
   (generated)
   "ProblemSet1-blx.bib"
   "ProblemSet1.aux"

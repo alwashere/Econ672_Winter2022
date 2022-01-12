@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.1.1)  11 JAN 2022 12:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.1.1)  11 JAN 2022 21:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -533,9 +533,18 @@ Overfull \hbox (35.35448pt too wide) in paragraph at lines 244--266
 [][] 
  []
 
-[4] [5
+[4]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 319.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 319.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 319.
+ [5
 
-] [6
+] (../Output/table3.tex) [6
+
+] [7
 
 ] (./ProblemSet1.aux)
 Package logreq Info: Writing requests to 'ProblemSet1.run.xml'.
@@ -543,18 +552,18 @@ Package logreq Info: Writing requests to 'ProblemSet1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12603 strings out of 478353
- 244210 string characters out of 5848087
- 899060 words of memory out of 5000000
- 30607 multiletter control sequences out of 15000+600000
- 434801 words of font info for 87 fonts, out of 8000000 for 9000
+ 12645 strings out of 478353
+ 244733 string characters out of 5848087
+ 900060 words of memory out of 5000000
+ 30632 multiletter control sequences out of 15000+600000
+ 450311 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 82i,11n,90p,2069b,3821s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 82i,13n,90p,2069b,3821s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ProblemSet1.pdf (6 pages, 75802 bytes).
+Output written on ProblemSet1.pdf (7 pages, 77936 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 59 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
