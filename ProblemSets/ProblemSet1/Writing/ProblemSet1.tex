@@ -52,11 +52,30 @@
         \item Table 3 shows various OLS estimates for effect on ln(wages) 
         using the controls from Table 3.  The estimates show a positive return
         to ln(wages) for full-time white male workers based on reported height 
-        during youth.
+        during youth. The reduced form specification shows a positive and 
+        statistically significant positive return to wages based on adult 
+        height. However, the return due to adult height diminishes and is 
+        no longer statistically significant when youth height is added to the 
+        specification.
                 
-        \item Table 4: \todo  
+        \item \citeauthor{Persico2004} explore the relationship between height 
+        at various stages of development age 7, 11 and 16 in addition to adult 
+        height.  The table shows that the height premium is only statistically 
+        economically significant at age 16 when all heights and family 
+        characteristics are included.
         
-        \item Summary: \todo  
+        \item The primary conclusion of the paper is that height when a 
+        teenager is the primary contributor to adult wage differential rather 
+        than adult height.  The authors tested for height as indicator of 
+        several factors including health, availability of external resources, 
+        and intergenerational factors.  There appears to be an identified 
+        mechanism that associated with height that produces a future wage 
+        premium. The authors suggest this premium is gained through greater 
+        social participation of the taller respondents. This premium is present 
+        independent of career choices. 
+        
+        Additionally, the wage premium is high enough that receiving growth 
+        hormone treatments to increase teen height has a positive return.
     \end{enumerate}
 
 % Question 2
@@ -252,23 +271,25 @@
         \hline
         Height 1985 & 70.64 & 71 & 2.78 & 69 & 72 & 2343 \\
         \hline
-        $\Delta$1981-1985 & 0.29 & 0 & 1.44 & 0 & 1 & 2281 \\
+        $\Delta$1981-1985 & -0.29 & 0 & 1.44 & -1 & 0 & 2281 \\
         \hline
         \multicolumn{7}{|c|}{B. Final Estimation Sample} \\
         \hline
-        Height 1981 & 70.36 & 71 & 2.90 & 69 & 72 & 910 \\
+        Height 1981 & 70.33 & 71 & 2.90 & 69 & 72 & 860 \\
         \hline
-        Height 1985 & 70.74 & 71 & 2.75 & 69 & 73 & 910 \\
+        Height 1985 & 70.70 & 71 & 2.75 & 69 & 72 & 860 \\
         \hline
-        $\Delta$1981-1985 & 0.37 & 0 & 1.48 & 0 & 1 & 910 \\
+        $\Delta$1981-1985 & -0.37 & 0 & 1.49 & -1 & 0 & 860 \\
         \hline
+        \multicolumn{7}{l}{\footnotesize Final sample is full-time employed 
+        white males who had non-missing data in the control variables.} \\
     \end{tabular}
     \caption{\textit{Replication of \textcite{Persico2004} Table 1}}
 \end{table}
 
 \clearpage
 \def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\question{8} \todo
+\question{8}
 \begin{table}[h!]
     \begin{tabular}{|l | c | c | c |} 
         \hline 
@@ -284,39 +305,43 @@
         \hline
         Adult Characteristics & & &\\
         \hline
-        \tabindent 1981 Height & 68.61  & 72.56  & 3.95\sym{*} \\
+        \tabindent 1981 Height & 68.60  & 72.52  & 3.92\sym{***} \\
                             & (2.31) & (1.92) & (0.14)\\
         \hline
-        \tabindent 1985 Height & 68.83  & 73.12  & 4.285\sym{*} \\
-                           & (2.03) & (1.28) &  (0.11) \\
+        \tabindent 1985 Height & 68.81  & 73.09  & 4.28\sym{***} \\
+                           & (2.04) & (1.27) &  (0.11) \\
         \hline
-        \tabindent Age     & 34.45  & 34.48  & 0.02 \\
-                           & (2.26) & (2.32) &  (0.15)       \\
+        \tabindent Age     & 34.44  & 34.48  & 0.05 \\
+                           & (2.24) & (2.32) &  (0.16)       \\
         \hline
-        \tabindent ln(wage/hour)     & 2.63   & 2.72  & 0.09\sym{*} \\
-                                     & (0.65) & (0.64) &  (0.04)       \\
+        \tabindent ln(wage/hour)     & 2.61   & 2.71  & 0.010\sym{*} \\
+                                     & (0.60) & (0.61) &  (0.04)       \\
         \hline
-        \tabindent Ever Married(\%)  & 85.57  & 89.11 & 0.03 \\
-                                     & (35.17) & (31.19) & (0.02) \\
+        \tabindent Ever Married(\%)  & 86.67  & 89.74 & 0.03 \\
+                                     & (34.02) & (30.39) & (0.02) \\
         \hline
         Family Background & & & \\
         \hline
-        \tabindent Mother's years of schooling & 12.26 & 12.44 & 0.19\\
-                                               & (2.43) & (2.13) & (0.15) \\
+        \tabindent Mother's years of schooling & 12.26 & 12.49 & 0.23\\
+                                               & (2.45) & (2.09) & (0.15) \\
         \hline
-        \tabindent Mother skilled$\backslash$professional (\%) & 18.77 & 21.29 & 0.02 \\
-                                                 & (39.09) & (40.98) & (0.03) \\
+        \tabindent Mother skilled$\backslash$professional (\%) & 
+                                                    18.75 &  21.57 & 2.83 \\
+                                                 & (39.07) & (41.19) & (2.76) \\
         \hline
-        \tabindent Father's years of schooling & 12.51 & 12.87 & 0.36 \\
-                                               & (3.20) & (3.09) & (0.21) \\
+        \tabindent Father's years of schooling & 12.50 & 12.86 & 0.36 \\
+                                               & (3.22) & (3.09) & (0.22) \\
         \hline
-        \tabindent Father skilled$\backslash$professional (\%) & 32.41 & 35.15 & 0.03 \\
-                                                               & (46.85) & (47.80) & (0.03) \\
+        \tabindent Father skilled$\backslash$professional (\%) &
+                                                 31.88 & 35.00 & 3.12 \\
+                                              & (46.65) & (47.76) & (3.25) \\
         \hline
-        Observations & 506 & 404 & 910 \\
+        Observations & 580 & 380 & 860 \\
         \hline\hline   
-        \multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
-	\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+        \multicolumn{4}{l}{\footnotesize Standard errors in parentheses} \\
+        \multicolumn{4}{l}{\footnotesize Full-time employed white males} \\
+	\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), 
+                        \sym{***} \(p<0.001\)}\\
     \end{tabular}
     \caption{\textit{Replication of \textcite{Persico2004} Table 2.}}
 \end{table}
@@ -328,8 +353,24 @@
 	\input{../Output/table3.tex}
     \caption{\textit{Replication of \textcite{Persico2004} Table 3 for NLSY}} 
 \end{table}
-
-\clearpage
+\begin{enumerate}[a.]
+    \item The reduced form specification (1) shows similar results to 
+    \textcite{Persico2004}.  There statistically and economically significant 
+    returns to wages for taller men.  An additional inch will increase wages 
+    by 3\% holding all else equal. Including family characteristics as 
+    controls in regression (2) reduces the return to adult height to 2.3\%. 
+    It remains economically and statistically significant. Considering teen 
+    height in specification (3) further reduces the returns to adult height. 
+    Finally, considering teen height and family characteristics in specification 
+    (4) reduces the returns to adult height to an economically small value 
+    while return to youth height remains about the same as specification (3). 
+    
+    Unlike \textcite{Persico2004}, the returns to teen height are statistically 
+    indistinguishable from zero in specification (3) and (4). This 
+    maybe to the different samples evaluated.  The authors used a sample of 
+    2,063 responses while I only had 860 valid responses. The general trends 
+    in the results we of the same direction.
+\end{enumerate}
 
 \printbibliography 
 
