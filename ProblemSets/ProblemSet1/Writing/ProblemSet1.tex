@@ -191,9 +191,10 @@
     \begin{enumerate}[(i)]
         \item \textit{Generate Stata Variable}
         
-        \item There are 1,973 observations that have non-missing lnWage values.
+        \item There are 1,908 observations that have non-missing lnWage values.
         
-        \item The remaining sample size with non-missing values is 1,979.
+        \item The remaining sample size with non-missing values for lnWage 
+        height81, height85, and age96 is 1,818.
     \end{enumerate}
 
     \item Generate \textbf{educ}.  This is the highest level of education 
@@ -233,7 +234,8 @@
     \item Generate \textbf{momSkilled}
     \begin{enumerate}[(i)]
         \item This contains classification codes.  Codes 1-245 are considered 
-        professional/managerial. Negative values are error codes.
+        professional/managerial. Negative values are error codes. There are a
+        significant number of error coded values in this parameter, 1,257. 
 
         \item \textit{Generate Stata Variable}
         
@@ -253,10 +255,12 @@
     \begin{enumerate}[(i)]
         \item \textit{Generate Stata Variable}
         
-        \item The final sample size is 910 responses.
+        \item The final sample size is 890 valid responses.
     \end{enumerate}
 
 \end{enumerate}
+
+\clearpage
 
 \question{7}
 \begin{table}[h!]
@@ -336,7 +340,7 @@
                                                  31.88 & 35.00 & 3.12 \\
                                               & (46.65) & (47.76) & (3.25) \\
         \hline
-        Observations & 580 & 380 & 860 \\
+        Observations & 480 & 380 & 860 \\
         \hline\hline   
         \multicolumn{4}{l}{\footnotesize Standard errors in parentheses} \\
         \multicolumn{4}{l}{\footnotesize Full-time employed white males} \\
@@ -345,6 +349,15 @@
     \end{tabular}
     \caption{\textit{Replication of \textcite{Persico2004} Table 2.}}
 \end{table}
+\begin{itemize}
+    \item[] Table 2 shows the samples split by above the median height and at or 
+    below the median height of 71 inches.  The groups are statistically 
+    different in both adult and youth height as well as wage. The differences 
+    were calculated by regressing the variable of interest on a dummy 
+    representing whether the observation was in the above or at/below median 
+    height group. The groups are statistically the same in other characteristics.
+\end{itemize}
+
 
 \clearpage
 
@@ -368,8 +381,11 @@
     Unlike \textcite{Persico2004}, the returns to teen height are statistically 
     indistinguishable from zero in specification (3) and (4). This 
     maybe to the different samples evaluated.  The authors used a sample of 
-    2,063 responses while I only had 860 valid responses. The general trends 
-    in the results we of the same direction.
+    2,063 responses while I only had 860 valid responses. The largest 
+    contributor to sample size difference was the missing data for the mother's  
+    job classification. 1,190 respondents had a valid skip (-4) for mother's 
+    profession. The general trends in the results are of the same direction as 
+    presented in the paper.
 \end{enumerate}
 
 \printbibliography 
