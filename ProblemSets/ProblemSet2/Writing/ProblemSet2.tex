@@ -1,0 +1,189 @@
+\documentclass[12pt]{article}
+%\usepackage{indentfirst}
+\usepackage{mathptmx}
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage[letterpaper, margin=1in]{geometry}
+
+
+\begin{document}
+
+\title{ECON 672 Winter 2022 Problem Set \#2}
+\author{Jon Holder}
+%\shortTitle{Problem Set\#2}
+%\econClass{ECON 672 Winter 2022}
+
+\newcommand{\question}[1]{\textbf{\noindent Question #1}}
+\newcommand{\tabindent}{\hspace{3mm}}
+
+\newcommand{\todo}{\color{red}{\textbf{TODO}}}
+
+\maketitle
+% Question 1
+\question{1}
+    \begin{list}{}{}
+        \item The log file shows that the data files is read into Stata. 
+        Table \ref{tableQ1} shows the summary statistics in the data set.
+        \begin{table}[h!]
+            \centering\input{../Output/tableQ1.tex}
+            \caption{\textit{Summary Statistics}} 
+            \label{tableQ1}
+        \end{table}
+    \end{list}
+
+% Question 2
+\question{2}
+    \begin{list}{}{}
+        \item See log file.
+    \end{list}
+
+% Question 3
+\question{3}
+    \begin{list}{}{}
+        \item See log file.
+    \end{list}
+
+% Question 4
+\question{4}
+    \begin{list}{}{}
+        \item Table \ref{tableQ5} model 1 shows estimates of the impact of the 
+        experimental assignment to the treatment group without covariates. OLS 
+        estimates that the treatment group resulted in \$562.40 increase in 
+        average earnings. The estimate is statistically significant at the 1\% 
+        level. 
+    \end{list}
+    \begin{table}[h!]
+        \centering\input{../Output/tableQ5.tex}
+        \caption{\textit{OLS Regression Estimates} }
+        \label{tableQ5}
+    \end{table}
+
+% Question 5
+\question{5}
+    \begin{list}{}{}
+        \item Table \ref{tableQ5} model 2 shows estimates of the impact of the 
+        experimental assignment to the treatment group with covariates. OLS 
+        estimates that the treatment group resulted in \$577.80 increase in 
+        average earnings. The estimate is statistically significant at the 5\% 
+        level. This estimate clustered at the site level. The inclusion of the 
+        covariates lowered the estimated impact, however the result remains 
+        of a similar magnitude and is remains statistically different from zero.
+    \end{list}
+
+% Question 6
+\question{6}
+    \begin{list}{}{}
+        \item The estimates from the nearest 10 neighbor propensity score 
+        produce similar estimates to the linear regression estimates. There is an 
+        increase in estimated effect about \$32 higher in the propensity 
+        score matching model.  The propensity score finds matches based on the 
+        probability of treatment from the probit model which used the covariates. 
+        This is distribution is non-linear. The OLS model linearly estimates a 
+        value based on the covariates switching on/off. This would produce some
+        differences between the estimates. 
+    \end{list}
+
+% Question 7
+\question{7}
+    \begin{list}{}{}
+        \item 
+        \begin{table}[h!]
+            \centering\input{../Output/tableQ7.tex}
+            \caption{\textit{Difference-in-Difference Estimates} }
+            \label{tableQ7}
+        \end{table}
+    \end{list}
+
+% Question 8
+\question{8}
+\begin{list}{}{}
+    \item Table \ref{tableQ7} shows a difference in means estimate between the 
+    JTPA control group and the JTPA treatment. The DID models estimate that 
+    enrollment in the JTPA treatment resulted in an approximately \$600 increase 
+    in average earnings when compared to control group. Adding covariates to 
+    the basic DID model reduced the impact of the program towards the basic OLS 
+    estimate with covariates. Both DID estimates are significant at the 1\% 
+    level. The results of the DID are in the neighborhood of 
+    the propensity score matching results. The propensity score ATT estimate is 
+    \$594.16 with the basic DID estimate of \$601.90 and DID estimate with 
+    covariates of \$584.40.
+\end{list}
+
+% Question 9
+\question{9}
+\begin{list}{}{}
+    \item See log file.
+\end{list}
+
+% Question 10
+\question{10}
+\begin{list}{}{}
+    \item See log file.
+\end{list}
+
+% Question 11
+\question{11}
+\begin{list}{}{}
+    \item See Table \ref{tableQ11}.
+    \begin{table}[h!]
+        \centering\input{../Output/tableQ11.tex}
+        \caption{\textit{Regression Discontinuity via Difference in Means 
+                        Estimates} }
+        \label{tableQ11}
+    \end{table}
+\end{list}
+
+% Question 12
+\question{12}
+\begin{list}{}{}
+    \item The estimate shown in Table \ref{tableQ11} estimate the impact of 
+    receiving treatment on earnings 18 months after the treatment for 
+    participants with prior earnings in the -/+ \$500 window around \$2,650. 
+    The model estimates that receiving the treatment causes a \$1,126.40 
+    increase in earnings although the estimate is not statistically different 
+    from zero.
+\end{list}
+
+% Question 13
+\question{13}
+\begin{list}{}{}
+    \item The result of Table \ref{tableQ11} is not surprising because the 
+    treatment in this setting is hypothetical.  The estimate indicates that this 
+    treatment had no impact. 
+\end{list}
+
+% Question 14
+\question{14}
+\begin{list}{}{}
+    \item See Table \ref{tableQ14}.
+    \begin{table}[h!]
+        \centering\input{../Output/tableQ14.tex}. 
+        \caption{\textit{Regression Discontinuity Estimates} }
+        \label{tableQ14}
+    \end{table}
+\end{list}
+
+% Question 15
+\question{15}
+\begin{list}{}{}
+    \item Table \ref{tableQ14} shows regression discontinuity estimates that 
+    allow both the y-intercept and slope on both sides of the discontinuity to 
+    vary.  The estimates using the full data set show a statistically and 
+    economically significant result that the treatment reduces future earnings. 
+    However, the economic effect becomes substantially positive and statistically 
+    indistinguishable from zero when reducing the window to a sample that is 
+    more localized to the treatment.
+
+    The results of both estimates are not surprising.  The full dataset shows the 
+    importance of making sure the comparison groups are comparable.  The 
+    windowed estimate shows the impact of the psuedotreatment was not different 
+    from zero.  
+
+    I prefer the windowed estimate.  It seems more reasonable that participants 
+    in that narrow pretreatment income band are very comparable.  I expect that 
+    the differences between the full treatment group and full control would 
+    prevent a valid comparison for this type of treatment.
+\end{list}
+
+\end{document}

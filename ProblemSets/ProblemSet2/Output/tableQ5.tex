@@ -1,0 +1,19 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}\\
+            &\multicolumn{1}{c}{Earnings 18 month later}&\multicolumn{1}{c}{With covariates}\\
+\hline
+In treatment group&       562.4\sym{**} &       577.8\sym{*}  \\
+            &     (184.2)         &     (249.8)         \\
+\hline
+adj. \(R^{2}\)&       0.001         &       0.174         \\
+F           &       9.322         &           .         \\
+\(N\)       &       10812         &       10812         \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{3}{l}{\footnotesize Estimate with covariates are clustered by site location}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}

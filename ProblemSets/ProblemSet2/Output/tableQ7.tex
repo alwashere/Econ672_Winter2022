@@ -1,0 +1,18 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{2}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}\\
+            &\multicolumn{1}{c}{Basic Earnings}&\multicolumn{1}{c}{With Covariates}\\
+\hline
+treatment   &       601.9\sym{***}&       584.4\sym{***}\\
+            &     (176.7)         &     (170.5)         \\
+\hline
+adj. \(R^{2}\)&       0.001         &       0.083         \\
+F           &       11.60         &       34.78         \\
+\(N\)       &       10812         &       10812         \\
+\hline\hline
+\multicolumn{3}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{3}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
