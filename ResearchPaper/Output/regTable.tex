@@ -1,0 +1,24 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+            &\multicolumn{1}{c}{ln(employment)}&\multicolumn{1}{c}{(1)+X}&\multicolumn{1}{c}{ln(wages)}&\multicolumn{1}{c}{(3)+X}\\
+\hline
+DID ATT     &    0.000811         &      -0.126         &     0.00768         &      -0.240\sym{***}\\
+            &    (0.0533)         &    (0.0620)         &    (0.0597)         &    (0.0488)         \\
+[1em]
+Washington State&       1.677\sym{***}&       1.542\sym{***}&    -0.00701         &      -0.273\sym{***}\\
+            &    (0.0456)         &    (0.0835)         &    (0.0550)         &    (0.0374)         \\
+[1em]
+ln(population)&                     &       1.368\sym{*}  &                     &       2.743\sym{***}\\
+            &                     &     (0.610)         &                     &     (0.276)         \\
+\hline
+adj. \(R^{2}\)&       0.986         &       0.990         &       0.544         &       0.865         \\
+F           &      1824.3         &      1009.6         &       30.97         &       103.0         \\
+\(N\)       &          38         &          38         &          38         &          38         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
