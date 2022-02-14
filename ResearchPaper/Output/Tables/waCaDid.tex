@@ -1,0 +1,20 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+            &\multicolumn{1}{c}{employment}&\multicolumn{1}{c}{employment}&\multicolumn{1}{c}{annualPay}&\multicolumn{1}{c}{annualPay}\\
+\hline
+DID ATT     &      8319.4\sym{*}  &      6801.4         &      6186.8         &     29287.7\sym{***}\\
+            &    (3842.5)         &    (4784.4)         &    (5254.7)         &    (4831.1)         \\
+[1em]
+Covariates  &          No         &         Yes         &          No         &         Yes         \\
+\hline
+adj. \(R^{2}\)&       0.333         &       0.297         &       0.587         &       0.887         \\
+F           &       20.43         &       14.21         &       30.98         &       185.9         \\
+\(N\)       &          38         &          38         &          38         &          38         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
